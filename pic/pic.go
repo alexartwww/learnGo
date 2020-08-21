@@ -1,4 +1,4 @@
-package tour_pic
+package pic
 
 func Pic(dx, dy int) [][]uint8 {
 	var result [][]uint8

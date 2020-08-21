@@ -1,4 +1,4 @@
-package tour_fibonacci
+package fibonacci
 
 func Fibonacci() func() int {
 	i := 0

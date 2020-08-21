@@ -2,12 +2,11 @@ package main
 
 import (
 	"fmt"
-	"learnProject/tour_fibonacci"
+	"learnProject/newton"
+	"math"
 )
 
 func main() {
-	f := tour_fibonacci.Fibonacci()
-	for i := 0; i < 10; i++ {
-		fmt.Println(f())
-	}
+	fmt.Println(newton.Sqrt(10, 0.00001))
+	fmt.Println(math.Sqrt(10))
 }

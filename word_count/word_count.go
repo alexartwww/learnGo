@@ -1,4 +1,4 @@
-package tour_word_count
+package word_count
 
 import "strings"
 
